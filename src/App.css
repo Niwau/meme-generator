@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+.container{
+    margin: 50px auto;
+    width: 1000px;
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(167, 28, 202);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.trollface{
+    height: 60px;
+    margin: 5px;
+}
+.input-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    border: 1px solid gray;
+    height: 50px;
+    width: 300px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.meme-button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.meme-button{
+    padding:20px 300px;
+    cursor: pointer;
+    background-color: rgb(167, 28, 202);
+    border: none;
+    border-radius: 10px;
+    font-family: Roboto;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.meme-button:hover{
+    background-color: rgb(226, 43, 165);
+}
+
+.meme-image{
+    width: 700px;
+}
+
+.meme-image-div{
+    margin: 50px auto;
+    width: fit-content;
+}
